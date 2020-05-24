@@ -1,13 +1,26 @@
-/*header*/
+/*header_PC*/
 .menu {
   height: 108px;
   background-color:#AA0601;
   display:flex;
-  justify-content:flex-start;
+  justify-content: space-between;
   align-items: center;
   padding-left: 20px;
-  ul li{
-      display:flex;
-      flex-direction:row;      
+  .logo{
+    width: 80px;
+    height: 100%;
   }
+}
+.navbar {
+    display: flex;
+    li a{
+        display: block;
+        line-height: 30px;
+        font-size: 20px;
+        padding: 16px;
+        margin: 24px 16px;
+        color: #ffffff;
+        text-decoration:none;
+    }
+
 }
