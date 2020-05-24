@@ -1,0 +1,13 @@
+/*header*/
+.menu {
+  height: 108px;
+  background-color:#AA0601;
+  display:flex;
+  justify-content:flex-start;
+  align-items: center;
+  padding-left: 20px;
+  ul li{
+      display:flex;
+      flex-direction:row;      
+  }
+}
